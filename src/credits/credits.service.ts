@@ -10,22 +10,25 @@ export class CreditsService {
 
         const credits:GetDataCreditsPerOwner = {
             transactionId: uuidv4(),
-            result:[{
-                creditNumber: "1440583",
-                disbursementDate: "31/05/2024",
-                affiliationType: "1",
-                capitalBalance: 111663.4,
-                creditStatus: "8",
-                currency: "1"
+            result:{
+                dataCredits:[
+                {
+                    creditNumber: "1477438",
+                    disbursementDate: "16/08/2024",
+                    affiliationType: "1",
+                    capitalBalance: 101728.00,
+                    creditStatus: "0",
+                    currency: "1"
               },
               {
-                creditNumber: "487009",
-                disbursementDate: "25/05/2018",
+                creditNumber: "1477577",
+                disbursementDate: "16/08/2024",
                 affiliationType: "1",
-                capitalBalance: 24148.06,
-                creditStatus: "6",
+                capitalBalance: 120000.00,
+                creditStatus: "0",
                 currency: "1"
-              }],
+          }
+            ]},
               timestamp: Date.now()
 
         }

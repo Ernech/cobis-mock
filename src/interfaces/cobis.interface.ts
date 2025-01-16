@@ -14,8 +14,14 @@ export interface GetDataCreditsPerOwner{
     
     transactionId:string;
 
-    result:DataCredit[];
+    result:Result;
     
     timestamp:number;
+
+}
+
+export interface Result{
+
+    dataCredits:DataCredit[]
 
 }
