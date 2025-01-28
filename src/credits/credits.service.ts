@@ -20,14 +20,14 @@ export class CreditsService {
                     creditStatus: "0",
                     currency: "1"
                 },
-                // {
-                //     creditNumber: "364342",
-                //     disbursementDate: "31/07/2017",
-                //     affiliationType: "1",
-                //     capitalBalance: 960400.00,
-                //     creditStatus: "0",
-                //     currency: "1"
-                // }
+                {
+                    creditNumber: "364342",
+                    disbursementDate: "31/07/2017",
+                    affiliationType: "1",
+                    capitalBalance: 960400.00,
+                    creditStatus: "0",
+                    currency: "1"
+                }
         ]},
             timestamp: Date.now()
 
