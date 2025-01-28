@@ -13,23 +13,23 @@ export class CreditsService {
             result:{
                 dataCredits:[
                 {
-                    creditNumber: "1477438",
-                    disbursementDate: "16/08/2024",
+                    creditNumber: "341555",
+                    disbursementDate: "27/03/2024",
                     affiliationType: "1",
-                    capitalBalance: 101728.00,
+                    capitalBalance: 140000.00,
                     creditStatus: "0",
                     currency: "1"
-              },
-              {
-                creditNumber: "1477577",
-                disbursementDate: "16/08/2024",
-                affiliationType: "1",
-                capitalBalance: 120000.00,
-                creditStatus: "0",
-                currency: "1"
-          }
-            ]},
-              timestamp: Date.now()
+                },
+                // {
+                //     creditNumber: "364342",
+                //     disbursementDate: "31/07/2017",
+                //     affiliationType: "1",
+                //     capitalBalance: 960400.00,
+                //     creditStatus: "0",
+                //     currency: "1"
+                // }
+        ]},
+            timestamp: Date.now()
 
         }
 
