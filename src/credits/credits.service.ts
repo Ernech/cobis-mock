@@ -12,22 +12,15 @@ export class CreditsService {
             transactionId: uuidv4(),
             result:{
                 dataCredits:[
-                {
-                    creditNumber: "341555",
-                    disbursementDate: "27/03/2024",
-                    affiliationType: "1",
-                    capitalBalance: 140000.00,
-                    creditStatus: "0",
-                    currency: "1"
-                },
-                {
-                    creditNumber: "364342",
-                    disbursementDate: "31/07/2017",
-                    affiliationType: "1",
-                    capitalBalance: 960400.00,
-                    creditStatus: "0",
-                    currency: "1"
-                }
+                    {
+                        creditNumber: "1425748",
+                        disbursementDate: "31/05/2024",
+                        affiliationType: "1",
+                        capitalBalance: 256850.00,
+                        creditStatus: "0",
+                        currency: "1"
+                    }
+                
         ]},
             timestamp: Date.now()
 
