@@ -25,3 +25,9 @@ export interface Result{
     dataCredits:DataCredit[]
 
 }
+
+export interface CreditsPerClient{
+    clientId:string;
+
+    dataCredits:DataCredit[];
+}
